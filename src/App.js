@@ -1,23 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import './fonts/avenir-next.otf';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <section className="wrapper">
+            <h1 className="sentence">
+              <div className="slidingVertical">
+                <span>bcent</span>
+                <span>javascript</span>
+                <span>frontend</span>
+              </div>
+            </h1>
+            <h1 className="sentence">dev.</h1>
+        </section>
       </header>
     </div>
   );
