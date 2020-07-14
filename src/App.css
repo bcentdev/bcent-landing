@@ -49,6 +49,7 @@
   animation: topToBottom 7.5s linear infinite 0s;
   -ms-animation: topToBottom 7.5s linear infinite 0s;
   -webkit-animation: topToBottom 7.5s linear infinite 0s;
+  animation-timing-function:ease;
   color: #809cad;
   opacity: 0;
   overflow: hidden;
@@ -61,12 +62,14 @@
   animation-delay: 2.5s;
   -ms-animation-delay: 2.5s;
   -webkit-animation-delay: 2.5s;
+  animation-timing-function: ease;
 }
 
 .slidingVertical span:nth-child(3) {
   animation-delay: 5s;
   -ms-animation-delay: 5s;
   -webkit-animation-delay: 5s;
+  animation-timing-function: ease;
 }
 
 
