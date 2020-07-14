@@ -183,6 +183,42 @@
   .sentence {
     font-size: 60px;
   }
+  .social-icons a {
+    padding: 15px;
+  }
 }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
 @media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
+svg {
+  width: 35px;
+}
+
+path {
+  transition: .5s linear;
+  cursor: pointer;
+  fill: white;
+}
+
+svg:hover path {
+  animation: dash 2s linear alternate infinite;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  stroke-width: 20;
+  fill: white;
+  stroke: #E8318A;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 822;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.social-icons a {
+  cursor: pointer;
+  padding: 5px;
+}
